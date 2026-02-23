@@ -10,9 +10,9 @@ Ce projet est une application de Business Intelligence appliquée à la NBA. Ell
 * Marius
 
 
-## 🌟 Points Forts du Projet
+## 🌟 Points importants du projet
 
-* **Algorithme de Scoring Adaptatif** : Contrairement aux modèles classiques, notre impact défensif valorise la protection de cercle (Contres 50%) et la présence physique (Rebonds 35%), rendant justice aux profils comme Victor Wembanyama.
+* **Algorithme de Scoring Adaptatif** : Contrairement aux modèles classiques, notre impact défensif valorise la protection de cercle (Contres 50%) et la présence physique (Rebonds 35%), rendant justice aux profils plus défensifs
 * **Matching de Données Robuste** : Système de fusion (Merge) intelligent capable de réconcilier les noms accentués (*Dončić*) et les formats abrégés (*V. Wembanyama*).
 * **Interface Intuitive** : Dashboard complet avec 6 sections d'analyse (Stats, Efficacité, Défense, Performance %, Impacts et Contrat).
 * **Automatisation** : Script de scraping intégré avec mise à jour automatique des données si le fichier local est obsolète.
