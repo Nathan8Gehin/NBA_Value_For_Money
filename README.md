@@ -7,7 +7,7 @@ Ce projet est une application de Business Intelligence appliquée à la NBA. Ell
 
 * Kevin KONAN
 
-* Marius
+* Marius HAVAN
 
 
 ## 🌟 Points importants du projet
