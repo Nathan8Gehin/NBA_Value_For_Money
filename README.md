@@ -42,3 +42,42 @@ NBA_Value_for_money/
 │
 └── Scrapers/               # Data Acquisition
     └── scrapers_stat.py    # Automated web scraper for NBA stats
+```
+## 📊 Methodology
+
+### 1. Performance Scoring
+Statistics are normalized against league leaders (0 to 1 scale) and weighted by rarity and importance:
+* **Defense (Steals/Blocks)**: 2.5x weight
+* **Playmaking (Assists)**: 1.5x weight
+* **Scoring (Points)**: 1.0x weight
+
+### 2. Impact Calculation
+* **Offensive Impact**: Weighted average of Scoring (60%) and Playmaking (40%).
+* **Defensive Impact**: Specialized weighted average to favor rim protection: **Blocks (50%)**, **Rebounds (35%)**, and **Steals (15%)**.
+
+### 3. Salary Merit
+A "Theoretical Salary" is calculated by mapping the player's performance score against the league's maximum salary. The final indicator (Underpaid/Well Paid/Overpaid) is determined by the gap between this theoretical value and the real contract.
+
+## 🛠️ Tech Stack
+* **Language**: Python 3.10+
+* **Data Science**: Pandas, NumPy, OpenPyXL
+* **Web Framework**: Flask (Backend), HTML5/CSS3 (Modern Dashboard UI with Grid/Flexbox)
+
+## 🚀 Installation & Setup
+
+1.  **Clone the repository**:
+    ```bash
+    git clone [https://github.com/your-username/NBA_Value_for_money.git](https://github.com/your-username/NBA_Value_for_money.git)
+    ```
+2.  **Install dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the Dashboard**:
+    ```bash
+    python nba_app.py
+    ```
+    *The dashboard will automatically open in your browser at `http://127.0.0.1:5000`.*
+
+---
+*Developed as part of the Master 1 DS2E - 2026*
